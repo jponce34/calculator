@@ -1,0 +1,24 @@
+#display {
+    
+    font: bold;
+    border: 3px solid;
+}
+ p {
+    text-align: right;
+    font: bold;
+    color: black;
+}
+
+.Frame {
+    margin:auto;
+    width: 30%;
+    height: 300%;
+    padding: 10px;
+    border: 3px solid;
+    display: grid;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
