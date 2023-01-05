@@ -1,12 +1,13 @@
-#display {
+display {
     
     font: bold;
     border: 3px solid;
+    display: flex;
+    align-items: flex-end;
 }
- p {
-    text-align: right;
-    font: bold;
-    color: black;
+
+current-operand {
+    text-align: end;
 }
 
 .Frame {
@@ -21,4 +22,8 @@
 .keys {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+}
+
+.keys > button{
+    cursor: pointer;
 }
